@@ -7,9 +7,9 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 const MyNavbar = () => {
     return (
         <>
-            <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary">
+            <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary navbar">
                 <Container>
-                    <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+                    <img className='logo-img' src={Logo}></img>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="me-auto">
