@@ -25,7 +25,7 @@ const MyNavbar = () => {
                                 Scooter
                                 </Nav.Link>
                             <Dropdown className="d-inline mx-2">
-                                <Dropdown.Toggle variant='black' className='text-dark fs-5 fw-semibold' id="dropdown-autoclose-true">
+                                <Dropdown.Toggle variant='black' className='fs-5 fw-semibold'>
                                     Abbigliamento e Accessori
                                 </Dropdown.Toggle>
 
@@ -38,7 +38,7 @@ const MyNavbar = () => {
                             </Dropdown>
                         </Nav>
                         <Nav className=''>
-                            <Nav.Link className='fs-5 d-flex align-items-center' href="#Carrello"><FaShoppingCart className='me-2'></FaShoppingCart> Carrello </Nav.Link>
+                            <Nav.Link className='fs-5 d-flex align-items-center fw-semibold' href="#Carrello"><FaShoppingCart className='me-2'></FaShoppingCart> Carrello </Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
