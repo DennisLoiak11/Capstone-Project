@@ -5,18 +5,31 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Sr125 from '../assets/Scooter/Aprilia_sr_125.avif';
 import SrMax from '../assets/Scooter/Aprilia_sr_max_300.avif';
-
+import Nmax125 from '../assets/Scooter/yamaha-n-max-125.webp';
+import x10 from '../assets/Scooter/Piaggio_x10_350.avif';
+import gts300 from '../assets/Scooter/Vespa_gts_300.webp';
+import Liberty from '../assets/Scooter/Liberty_s_125.webp';
+import Tmax from '../assets/Scooter/Tmax_560.webp';
+import xadv from '../assets/Scooter/Honda_xadv_750.png';
+import Beverly from '../assets/Scooter/Beverly_300.webp';
+import xmax from '../assets/Scooter/Beverly_300.webp';
+import aerox from '../assets/Scooter/yamaha-areox-50-2019.webp';
+import sh from '../assets/Scooter/Honda_Sh_125.png';
+import pcx from '../assets/Scooter/Honda_pcx-125.jpg';
+import tricity from '../assets/Scooter/Yamaha_Tricity_300.jpg';
+import srgt from '../assets/Scooter/Aprilia_srgt_200.webp';
+import Medley from '../assets/Scooter/Medley_s_125.webp';
 
 
 const Scooter = () => {
     return(
         <>
-        <h2 className='text-center mt-4'>Ecco i gioielli del nostro concessionario:</h2>
+        <h2 className='text-center mt-4'>Ecco gli Scooter del nostro concessionario:</h2>
         <Container className='my-5'>
             <Row>
                 <Col xs={12} md={6} lg={3}>
                     <Card className='mb-3'>
-                        <Card.Img variant="top" src={Sr125} className='img-moto' />
+                        <Card.Img variant="top" src={Tmax} className='img-moto' />
                         <Card.Body>
                             <Card.Title>Ducati Panigale V4</Card.Title>
 
@@ -35,17 +48,17 @@ const Scooter = () => {
                 </Col>      
                 <Col xs={12} md={6} lg={3}>
                     <Card className='mb-3'>
-                        <Card.Img variant="top" src={SrMax} className='img-moto' />
+                        <Card.Img variant="top" src={xadv} className='img-moto' />
                         <Card.Body>
-                            <Card.Title>Aprilia Dorsoduro 900</Card.Title>
+                            <Card.Title>Honda X-Adv</Card.Title>
 
                         </Card.Body>
                         <ListGroup className="list-group-flush">
-                            <ListGroup.Item><b>Tipologia:</b> Motard</ListGroup.Item>
-                            <ListGroup.Item><b>Cilindrata:</b> 900 cc</ListGroup.Item>
-                            <ListGroup.Item><b>Cambio:</b> Manuale </ListGroup.Item>
-                            <ListGroup.Item><b>Anno immatricolazione:</b> 2018</ListGroup.Item>
-                            <ListGroup.Item><b>Prezzo:</b> 9.000 €</ListGroup.Item>
+                            <ListGroup.Item><b>Tipologia:</b> Scooter</ListGroup.Item>
+                            <ListGroup.Item><b>Cilindrata:</b> 750 cc</ListGroup.Item>
+                            <ListGroup.Item><b>Cambio:</b> Automatico </ListGroup.Item>
+                            <ListGroup.Item><b>Anno immatricolazione:</b> 2019</ListGroup.Item>
+                            <ListGroup.Item><b>Prezzo:</b> 13.000 €</ListGroup.Item>
                         </ListGroup>
                         <Card.Body>
                             <Card.Link href="#">Aggiugni al Carrello</Card.Link>
@@ -55,17 +68,17 @@ const Scooter = () => {
 
                 <Col xs={12} md={6} lg={3}>
                     <Card className='mb-3'>
-                        <Card.Img variant="top" src={YamahaR1} className='img-moto' />
+                        <Card.Img variant="top" src={Nmax125} className='img-moto' />
                         <Card.Body>
-                            <Card.Title>Yamaha R1</Card.Title>
+                            <Card.Title>Yamaha N-Max</Card.Title>
 
                         </Card.Body>
                         <ListGroup className="list-group-flush">
-                            <ListGroup.Item><b>Tipologia:</b> Super Sportiva</ListGroup.Item>
-                            <ListGroup.Item><b>Cilindrata:</b> 1000 cc</ListGroup.Item>
-                            <ListGroup.Item><b>Cambio:</b> Manuale </ListGroup.Item>
+                            <ListGroup.Item><b>Tipologia:</b> Scooter</ListGroup.Item>
+                            <ListGroup.Item><b>Cilindrata:</b> 125 cc</ListGroup.Item>
+                            <ListGroup.Item><b>Cambio:</b> Automatico </ListGroup.Item>
                             <ListGroup.Item><b>Anno immatricolazione:</b> 2022</ListGroup.Item>
-                            <ListGroup.Item><b>Prezzo:</b> 26.500 €</ListGroup.Item>
+                            <ListGroup.Item><b>Prezzo:</b> 2.500 €</ListGroup.Item>
                         </ListGroup>
                         <Card.Body>
                             <Card.Link href="#">Aggiugni al Carrello</Card.Link>
@@ -75,17 +88,17 @@ const Scooter = () => {
 
                 <Col xs={12} md={6} lg={3}>
                     <Card className='mb-3'>
-                        <Card.Img variant="top" src={ApriliaRS} className='img-moto' />
+                        <Card.Img variant="top" src={sh} className='img-moto' />
                         <Card.Body>
-                            <Card.Title>Aprilia RS V4</Card.Title>
+                            <Card.Title>Honda Sh 125</Card.Title>
 
                         </Card.Body>
                         <ListGroup className="list-group-flush">
-                            <ListGroup.Item><b>Tipologia:</b> Super Sportiva</ListGroup.Item>
-                            <ListGroup.Item><b>Cilindrata:</b> 1.100 cc</ListGroup.Item>
-                            <ListGroup.Item><b>Cambio:</b> Manuale </ListGroup.Item>
+                            <ListGroup.Item><b>Tipologia:</b> Scooter</ListGroup.Item>
+                            <ListGroup.Item><b>Cilindrata:</b> 125 cc</ListGroup.Item>
+                            <ListGroup.Item><b>Cambio:</b> Automatico </ListGroup.Item>
                             <ListGroup.Item><b>Anno immatricolazione:</b> 2020</ListGroup.Item>
-                            <ListGroup.Item><b>Prezzo:</b> 19.600 €</ListGroup.Item>
+                            <ListGroup.Item><b>Prezzo:</b> 4.600 €</ListGroup.Item>
                         </ListGroup>
                         <Card.Body>
                             <Card.Link href="#">Aggiugni al Carrello</Card.Link>
@@ -94,17 +107,17 @@ const Scooter = () => {
                 </Col>      
                 <Col xs={12} md={6} lg={3}>
                     <Card className='mb-3'>
-                        <Card.Img variant="top" src={Hypermotard} className='img-moto' />
+                        <Card.Img variant="top" src={gts300} className='img-moto' />
                         <Card.Body>
-                            <Card.Title>Ducati Hypermotard</Card.Title>
+                            <Card.Title>Vespa Gts 300</Card.Title>
 
                         </Card.Body>
                         <ListGroup className="list-group-flush">
-                            <ListGroup.Item><b>Tipologia:</b> Motard</ListGroup.Item>
-                            <ListGroup.Item><b>Cilindrata:</b> 950 cc</ListGroup.Item>
-                            <ListGroup.Item><b>Cambio:</b> Manuale </ListGroup.Item>
+                            <ListGroup.Item><b>Tipologia:</b> MotScooterard</ListGroup.Item>
+                            <ListGroup.Item><b>Cilindrata:</b> 300 cc</ListGroup.Item>
+                            <ListGroup.Item><b>Cambio:</b> Automatico </ListGroup.Item>
                             <ListGroup.Item><b>Anno immatricolazione:</b> 2019</ListGroup.Item>
-                            <ListGroup.Item><b>Prezzo:</b> 17.400 €</ListGroup.Item>
+                            <ListGroup.Item><b>Prezzo:</b> 3.400 €</ListGroup.Item>
                         </ListGroup>
                         <Card.Body>
                             <Card.Link href="#">Aggiugni al Carrello</Card.Link>
@@ -114,17 +127,17 @@ const Scooter = () => {
                 
                 <Col xs={12} md={6} lg={3}>
                     <Card className='mb-3'>
-                        <Card.Img variant="top" src={Multistrada} className='img-moto' />
+                        <Card.Img variant="top" src={Liberty} className='img-moto' />
                         <Card.Body>
-                            <Card.Title>Ducati Multistrada</Card.Title>
+                            <Card.Title>Piaggio Liberty</Card.Title>
 
                         </Card.Body>
                         <ListGroup className="list-group-flush">
-                            <ListGroup.Item><b>Tipologia:</b> Motard</ListGroup.Item>
-                            <ListGroup.Item><b>Cilindrata:</b> 1200 cc</ListGroup.Item>
-                            <ListGroup.Item><b>Cambio:</b> Manuale </ListGroup.Item>
+                            <ListGroup.Item><b>Tipologia:</b> Scooter</ListGroup.Item>
+                            <ListGroup.Item><b>Cilindrata:</b> 125 cc</ListGroup.Item>
+                            <ListGroup.Item><b>Cambio:</b> Automatico </ListGroup.Item>
                             <ListGroup.Item><b>Anno immatricolazione:</b> 2021</ListGroup.Item>
-                            <ListGroup.Item><b>Prezzo:</b> 19.000 €</ListGroup.Item>
+                            <ListGroup.Item><b>Prezzo:</b> 3.000 €</ListGroup.Item>
                         </ListGroup>
                         <Card.Body>
                             <Card.Link href="#">Aggiugni al Carrello</Card.Link>
@@ -134,17 +147,17 @@ const Scooter = () => {
                 
                 <Col xs={12} md={6} lg={3}>
                     <Card className='mb-3'>
-                        <Card.Img variant="top" src={AfricaTwin} className='img-moto' />
+                        <Card.Img variant="top" src={Sr125} className='img-moto' />
                         <Card.Body>
-                            <Card.Title>Honda Africa Twin</Card.Title>
+                            <Card.Title>Aprilia Sr 125</Card.Title>
 
                         </Card.Body>
                         <ListGroup className="list-group-flush">
-                            <ListGroup.Item><b>Tipologia:</b> Motard</ListGroup.Item>
-                            <ListGroup.Item><b>Cilindrata:</b> 1100 cc</ListGroup.Item>
-                            <ListGroup.Item><b>Cambio:</b> Manuale </ListGroup.Item>
+                            <ListGroup.Item><b>Tipologia:</b> Scooter</ListGroup.Item>
+                            <ListGroup.Item><b>Cilindrata:</b> 125 cc</ListGroup.Item>
+                            <ListGroup.Item><b>Cambio:</b> Automatico </ListGroup.Item>
                             <ListGroup.Item><b>Anno immatricolazione:</b> 2022</ListGroup.Item>
-                            <ListGroup.Item><b>Prezzo:</b> 16.500 €</ListGroup.Item>
+                            <ListGroup.Item><b>Prezzo:</b> 2.000 €</ListGroup.Item>
                         </ListGroup>
                         <Card.Body>
                             <Card.Link href="#">Aggiugni al Carrello</Card.Link>
@@ -154,17 +167,17 @@ const Scooter = () => {
                 
                 <Col xs={12} md={6} lg={3}>
                     <Card className='mb-3'>
-                        <Card.Img variant="top" src={HondaCBR} className='img-moto' />
+                        <Card.Img variant="top" src={SrMax} className='img-moto' />
                         <Card.Body>
-                            <Card.Title>Honda CBR RR</Card.Title>
+                            <Card.Title>Aprilia Sr Max</Card.Title>
 
                         </Card.Body>
                         <ListGroup className="list-group-flush">
-                            <ListGroup.Item><b>Tipologia:</b> Super Sportiva</ListGroup.Item>
-                            <ListGroup.Item><b>Cilindrata:</b> 1100 cc</ListGroup.Item>
-                            <ListGroup.Item><b>Cambio:</b> Manuale </ListGroup.Item>
+                            <ListGroup.Item><b>Tipologia:</b> Scooter</ListGroup.Item>
+                            <ListGroup.Item><b>Cilindrata:</b> 300 cc</ListGroup.Item>
+                            <ListGroup.Item><b>Cambio:</b> Automatico </ListGroup.Item>
                             <ListGroup.Item><b>Anno immatricolazione:</b> 2019</ListGroup.Item>
-                            <ListGroup.Item><b>Prezzo:</b> 18.700 €</ListGroup.Item>
+                            <ListGroup.Item><b>Prezzo:</b> 3.700 €</ListGroup.Item>
                         </ListGroup>
                         <Card.Body>
                             <Card.Link href="#">Aggiugni al Carrello</Card.Link>
@@ -174,17 +187,17 @@ const Scooter = () => {
                 
                 <Col xs={12} md={6} lg={3}>
                     <Card className='mb-3'>
-                        <Card.Img variant="top" src={Duke} className='img-moto' />
+                        <Card.Img variant="top" src={Beverly} className='img-moto' />
                         <Card.Body>
-                            <Card.Title>Ktm Duke</Card.Title>
+                            <Card.Title>Piaggio Beverly</Card.Title>
 
                         </Card.Body>
                         <ListGroup className="list-group-flush">
-                            <ListGroup.Item><b>Tipologia:</b> Naked</ListGroup.Item>
-                            <ListGroup.Item><b>Cilindrata:</b> 790 cc</ListGroup.Item>
-                            <ListGroup.Item><b>Cambio:</b> Manuale </ListGroup.Item>
+                            <ListGroup.Item><b>Tipologia:</b> Scooter</ListGroup.Item>
+                            <ListGroup.Item><b>Cilindrata:</b> 300cc</ListGroup.Item>
+                            <ListGroup.Item><b>Cambio:</b> Automatico </ListGroup.Item>
                             <ListGroup.Item><b>Anno immatricolazione:</b> 2019</ListGroup.Item>
-                            <ListGroup.Item><b>Prezzo:</b> 12.700 €</ListGroup.Item>
+                            <ListGroup.Item><b>Prezzo:</b> 2.500 €</ListGroup.Item>
                         </ListGroup>
                         <Card.Body>
                             <Card.Link href="#">Aggiugni al Carrello</Card.Link>
@@ -194,17 +207,17 @@ const Scooter = () => {
                 
                 <Col xs={12} md={6} lg={3}>
                     <Card className='mb-3'>
-                        <Card.Img variant="top" src={Cb600} className='img-moto' />
+                        <Card.Img variant="top" src={xmax} className='img-moto' />
                         <Card.Body>
-                            <Card.Title>Honda CB 600</Card.Title>
+                            <Card.Title>Yamaha X-Max 400</Card.Title>
 
                         </Card.Body>
                         <ListGroup className="list-group-flush">
-                            <ListGroup.Item><b>Tipologia:</b> Naked</ListGroup.Item>
-                            <ListGroup.Item><b>Cilindrata:</b> 600 cc</ListGroup.Item>
-                            <ListGroup.Item><b>Cambio:</b> Manuale </ListGroup.Item>
+                            <ListGroup.Item><b>Tipologia:</b> Scooter</ListGroup.Item>
+                            <ListGroup.Item><b>Cilindrata:</b> 400 cc</ListGroup.Item>
+                            <ListGroup.Item><b>Cambio:</b> Automatico </ListGroup.Item>
                             <ListGroup.Item><b>Anno immatricolazione:</b> 2020</ListGroup.Item>
-                            <ListGroup.Item><b>Prezzo:</b> 15.000 €</ListGroup.Item>
+                            <ListGroup.Item><b>Prezzo:</b> 4.000 €</ListGroup.Item>
                         </ListGroup>
                         <Card.Body>
                             <Card.Link href="#">Aggiugni al Carrello</Card.Link>
@@ -214,17 +227,17 @@ const Scooter = () => {
                 
                 <Col xs={12} md={6} lg={3}>
                     <Card className='mb-3'>
-                        <Card.Img variant="top" src={KtmExc} className='img-moto' />
+                        <Card.Img variant="top" src={aerox} className='img-moto' />
                         <Card.Body>
-                            <Card.Title>Ktm Exc 450</Card.Title>
+                            <Card.Title>Yamaha Aerox</Card.Title>
 
                         </Card.Body>
                         <ListGroup className="list-group-flush">
-                            <ListGroup.Item><b>Tipologia:</b> Cross</ListGroup.Item>
-                            <ListGroup.Item><b>Cilindrata:</b> 450 cc</ListGroup.Item>
-                            <ListGroup.Item><b>Cambio:</b> Manuale </ListGroup.Item>
+                            <ListGroup.Item><b>Tipologia:</b> Scooter</ListGroup.Item>
+                            <ListGroup.Item><b>Cilindrata:</b> 50 cc</ListGroup.Item>
+                            <ListGroup.Item><b>Cambio:</b> Automatico </ListGroup.Item>
                             <ListGroup.Item><b>Anno immatricolazione:</b> 2021</ListGroup.Item>
-                            <ListGroup.Item><b>Prezzo:</b> 10.000 €</ListGroup.Item>
+                            <ListGroup.Item><b>Prezzo:</b> 1.300 €</ListGroup.Item>
                         </ListGroup>
                         <Card.Body>
                             <Card.Link href="#">Aggiugni al Carrello</Card.Link>
@@ -234,17 +247,17 @@ const Scooter = () => {
                 
                 <Col xs={12} md={6} lg={3}>
                     <Card className='mb-3'>
-                        <Card.Img variant="top" src={Mt09} className='img-moto' />
+                        <Card.Img variant="top" src={x10} className='img-moto' />
                         <Card.Body>
-                            <Card.Title>Yamaha MT 09</Card.Title>
+                            <Card.Title>Piaggio X-10</Card.Title>
 
                         </Card.Body>
                         <ListGroup className="list-group-flush">
-                            <ListGroup.Item><b>Tipologia:</b> Naked</ListGroup.Item>
-                            <ListGroup.Item><b>Cilindrata:</b> 900 cc</ListGroup.Item>
-                            <ListGroup.Item><b>Cambio:</b> Manuale </ListGroup.Item>
+                            <ListGroup.Item><b>Tipologia:</b> Scooter</ListGroup.Item>
+                            <ListGroup.Item><b>Cilindrata:</b> 350 cc</ListGroup.Item>
+                            <ListGroup.Item><b>Cambio:</b> Automatico </ListGroup.Item>
                             <ListGroup.Item><b>Anno immatricolazione:</b> 2022</ListGroup.Item>
-                            <ListGroup.Item><b>Prezzo:</b> 13.000 €</ListGroup.Item>
+                            <ListGroup.Item><b>Prezzo:</b> 2.000 €</ListGroup.Item>
                         </ListGroup>
                         <Card.Body>
                             <Card.Link href="#">Aggiugni al Carrello</Card.Link>
@@ -254,17 +267,17 @@ const Scooter = () => {
                 
                 <Col xs={12} md={6} lg={3}>
                     <Card className='mb-3'>
-                        <Card.Img variant="top" src={Tenere} className='img-moto' />
+                        <Card.Img variant="top" src={pcx} className='img-moto' />
                         <Card.Body>
-                            <Card.Title>Yamaha Tenerè</Card.Title>
+                            <Card.Title>Honda Pcx</Card.Title>
 
                         </Card.Body>
                         <ListGroup className="list-group-flush">
-                            <ListGroup.Item><b>Tipologia:</b> Enduro</ListGroup.Item>
-                            <ListGroup.Item><b>Cilindrata:</b> 700 cc</ListGroup.Item>
-                            <ListGroup.Item><b>Cambio:</b> Manuale </ListGroup.Item>
+                            <ListGroup.Item><b>Tipologia:</b> Scooter</ListGroup.Item>
+                            <ListGroup.Item><b>Cilindrata:</b> 125 cc</ListGroup.Item>
+                            <ListGroup.Item><b>Cambio:</b> Automatico </ListGroup.Item>
                             <ListGroup.Item><b>Anno immatricolazione:</b> 2022</ListGroup.Item>
-                            <ListGroup.Item><b>Prezzo:</b> 13.000 €</ListGroup.Item>
+                            <ListGroup.Item><b>Prezzo:</b> 3.000 €</ListGroup.Item>
                         </ListGroup>
                         <Card.Body>
                             <Card.Link href="#">Aggiugni al Carrello</Card.Link>
@@ -274,17 +287,17 @@ const Scooter = () => {
                 
                 <Col xs={12} md={6} lg={3}>
                     <Card className='mb-3'>
-                        <Card.Img variant="top" src={Tracer} className='img-moto' />
+                        <Card.Img variant="top" src={tricity} className='img-moto' />
                         <Card.Body>
-                            <Card.Title>Yamaha Tracer</Card.Title>
+                            <Card.Title>Yamaha Tricity</Card.Title>
 
                         </Card.Body>
                         <ListGroup className="list-group-flush">
-                            <ListGroup.Item><b>Tipologia:</b> Strada</ListGroup.Item>
-                            <ListGroup.Item><b>Cilindrata:</b> 900 cc</ListGroup.Item>
-                            <ListGroup.Item><b>Cambio:</b> Manuale </ListGroup.Item>
+                            <ListGroup.Item><b>Tipologia:</b> Scooter</ListGroup.Item>
+                            <ListGroup.Item><b>Cilindrata:</b> 300 cc</ListGroup.Item>
+                            <ListGroup.Item><b>Cambio:</b> Automatico </ListGroup.Item>
                             <ListGroup.Item><b>Anno immatricolazione:</b> 2020</ListGroup.Item>
-                            <ListGroup.Item><b>Prezzo:</b> 12.300 €</ListGroup.Item>
+                            <ListGroup.Item><b>Prezzo:</b> 3.700 €</ListGroup.Item>
                         </ListGroup>
                         <Card.Body>
                             <Card.Link href="#">Aggiugni al Carrello</Card.Link>
@@ -294,17 +307,17 @@ const Scooter = () => {
                 
                 <Col xs={12} md={6} lg={3}>
                     <Card className='mb-3'>
-                        <Card.Img variant="top" src={Ktm690} className='img-moto' />
+                        <Card.Img variant="top" src={srgt} className='img-moto' />
                         <Card.Body>
-                            <Card.Title>Ktm 690</Card.Title>
+                            <Card.Title>Aprilia Sr-Gt</Card.Title>
 
                         </Card.Body>
                         <ListGroup className="list-group-flush">
-                            <ListGroup.Item><b>Tipologia:</b> Enduro</ListGroup.Item>
-                            <ListGroup.Item><b>Cilindrata:</b> 690 cc</ListGroup.Item>
-                            <ListGroup.Item><b>Cambio:</b> Manuale </ListGroup.Item>
+                            <ListGroup.Item><b>Tipologia:</b> Scooter</ListGroup.Item>
+                            <ListGroup.Item><b>Cilindrata:</b> 200 cc</ListGroup.Item>
+                            <ListGroup.Item><b>Cambio:</b> Automatico </ListGroup.Item>
                             <ListGroup.Item><b>Anno immatricolazione:</b> 2022</ListGroup.Item>
-                            <ListGroup.Item><b>Prezzo:</b> 16.700 €</ListGroup.Item>
+                            <ListGroup.Item><b>Prezzo:</b> 2.750 €</ListGroup.Item>
                         </ListGroup>
                         <Card.Body>
                             <Card.Link href="#">Aggiugni al Carrello</Card.Link>
@@ -314,17 +327,17 @@ const Scooter = () => {
                 
                 <Col xs={12} md={6} lg={3}>
                     <Card className='mb-3'>
-                        <Card.Img variant="top" src={Crf450} className='img-moto' />
+                        <Card.Img variant="top" src={Medley} className='img-moto' />
                         <Card.Body>
-                            <Card.Title>Honda CRF 450</Card.Title>
+                            <Card.Title>Piaggio Medley S</Card.Title>
 
                         </Card.Body>
                         <ListGroup className="list-group-flush">
-                            <ListGroup.Item><b>Tipologia:</b> Cross</ListGroup.Item>
-                            <ListGroup.Item><b>Cilindrata:</b> 450 cc</ListGroup.Item>
-                            <ListGroup.Item><b>Cambio:</b> Manuale </ListGroup.Item>
+                            <ListGroup.Item><b>Tipologia:</b> Scooter</ListGroup.Item>
+                            <ListGroup.Item><b>Cilindrata:</b> 125 cc</ListGroup.Item>
+                            <ListGroup.Item><b>Cambio:</b> Automatico </ListGroup.Item>
                             <ListGroup.Item><b>Anno immatricolazione:</b> 2017</ListGroup.Item>
-                            <ListGroup.Item><b>Prezzo:</b> 11.200 €</ListGroup.Item>
+                            <ListGroup.Item><b>Prezzo:</b> 2.500 €</ListGroup.Item>
                         </ListGroup>
                         <Card.Body>
                             <Card.Link href="#">Aggiugni al Carrello</Card.Link>

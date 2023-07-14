@@ -12,7 +12,7 @@ const MyHome = () => {
             <div className='d-flex'>
                 <img className='bgHome img-fluid' src={bgHome}></img>
             </div>
-            <p className='text-center fs-1 fw-bold mt-3'>SFERA MOTOR</p>
+            <p className='text-center fs-1 fw-bold mt-3'>SFERA MOTOR di DE BIASI DENNIS</p>
                 <p className='text-center title fs-4'>Concessionario Bari, rivenditore autorizzato di:
             </p>
 
