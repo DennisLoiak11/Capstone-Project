@@ -19,12 +19,12 @@ const MyNavbar = () => {
                             <Link to='/Home'>
                                 <img className='logo-img' src={Logo}></img>
                             </Link>
-                            <Link to='/Moto' className='fs-5 fw-semibold link' href="#moto">
+                            <Link to='/Moto' className='fs-5 fw-semibold link me-3' href="#moto">
                                 Moto
                             </Link>
-                            <Nav.Link className='fs-5 fw-semibold' href="#scooter">
+                            <Link to='/Scooter' className='fs-5 fw-semibold link' href="#scooter">
                                 Scooter
-                                </Nav.Link>
+                            </Link>
                             <Dropdown className="d-inline mx-2">
                                 <Dropdown.Toggle variant='black' className='fs-5 fw-semibold'>
                                     Abbigliamento e Accessori

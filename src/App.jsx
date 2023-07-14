@@ -6,6 +6,7 @@ import MyHome from './components/MyHome';
 import MyFooter from './components/MyFooter';
 import ProfilePage from './components/ProfilePage';
 import Moto from './components/Moto';
+import Scooter from './components/Scooter';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
             <Route path="/Home" element={<MyHome/>}/>
             <Route path="/Profile" element={<ProfilePage/>}/>
             <Route path="/Moto" element={<Moto/>}/>
+            <Route path="/Scooter" element={<Scooter/>}/>
         </Routes>
     <MyFooter></MyFooter>
       </BrowserRouter>

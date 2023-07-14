@@ -3,32 +3,20 @@ import ListGroup from 'react-bootstrap/ListGroup';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Panigale from '../assets/Moto/Ducati_Panigale.avif';
-import Dorsoduro from '../assets/Moto/Aprilia_dorsoduro_900.avif'
-import ApriliaRS from '../assets/Moto/Aprilia_rs_V4.avif'
-import Hypermotard from '../assets/Moto/Ducati_Hypermotard.png'
-import YamahaR1 from '../assets/Moto/Yamaha_r1.webp'
-import Multistrada from '../assets/Moto/Ducati_Multistrada.avif'
-import AfricaTwin from '../assets/Moto/Honda_africa_twin.jpg'
-import HondaCBR from '../assets/Moto/honda_cbr_rr.png'
-import Duke from '../assets/Moto/Ktm_duke_790.png'
-import Cb600 from '../assets/Moto/honda_cb_600_r.webp'
-import KtmExc from '../assets/Moto/ktm_exc_450_cross.jpg'
-import Mt09 from '../assets/Moto/Yamaha_MT09.webp'
-import Tenere from '../assets/Moto/Yamaha_tenere_700.webp'
-import Tracer from '../assets/Moto/Yamaha_Tracer_900.webp'
-import Ktm690 from '../assets/Moto/Ktm_690.avif'
-import Crf450 from '../assets/Moto/Honda_crf_450.avif'
+import Sr125 from '../assets/Scooter/Aprilia_sr_125.avif';
+import SrMax from '../assets/Scooter/Aprilia_sr_max_300.avif';
 
-const Moto = () => {
-    return (
+
+
+const Scooter = () => {
+    return(
         <>
         <h2 className='text-center mt-4'>Ecco i gioielli del nostro concessionario:</h2>
         <Container className='my-5'>
             <Row>
                 <Col xs={12} md={6} lg={3}>
                     <Card className='mb-3'>
-                        <Card.Img variant="top" src={Panigale} className='img-moto' />
+                        <Card.Img variant="top" src={Sr125} className='img-moto' />
                         <Card.Body>
                             <Card.Title>Ducati Panigale V4</Card.Title>
 
@@ -47,7 +35,7 @@ const Moto = () => {
                 </Col>      
                 <Col xs={12} md={6} lg={3}>
                     <Card className='mb-3'>
-                        <Card.Img variant="top" src={Dorsoduro} className='img-moto' />
+                        <Card.Img variant="top" src={SrMax} className='img-moto' />
                         <Card.Body>
                             <Card.Title>Aprilia Dorsoduro 900</Card.Title>
 
@@ -349,4 +337,4 @@ const Moto = () => {
     )
 }
 
-export default Moto;
+export default Scooter
