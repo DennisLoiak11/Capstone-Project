@@ -4,6 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Dropdown from 'react-bootstrap/Dropdown';
 import { FaShoppingCart } from "react-icons/fa";
+import { MdSportsMotorsports } from "react-icons/md";
 import { Link } from "react-router-dom";
 
 
@@ -18,9 +19,9 @@ const MyNavbar = () => {
                             <Link to='/Home'>
                                 <img className='logo-img' src={Logo}></img>
                             </Link>
-                            <Nav.Link className='fs-5 fw-semibold' href="#moto">
+                            <Link to='/Moto' className='fs-5 fw-semibold link' href="#moto">
                                 Moto
-                                </Nav.Link>
+                            </Link>
                             <Nav.Link className='fs-5 fw-semibold' href="#scooter">
                                 Scooter
                                 </Nav.Link>
@@ -37,7 +38,10 @@ const MyNavbar = () => {
                                 </Dropdown.Menu>
                             </Dropdown>
                         </Nav>
-                        <Nav className=''>
+                        <Nav className='ms-5'>
+                        <Link to='/Profile' className='link'>
+                        <Nav.Link className='fs-5 d-flex align-items-center fw-semibold' href="#Carrello"><MdSportsMotorsports className='me-2 fs-4'></MdSportsMotorsports> Profilo </Nav.Link>
+                        </Link>
                             <Nav.Link className='fs-5 d-flex align-items-center fw-semibold' href="#Carrello"><FaShoppingCart className='me-2'></FaShoppingCart> Carrello </Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
