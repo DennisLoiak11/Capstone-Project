@@ -22,24 +22,18 @@ const MyNavbar = () => {
                             <Link to='/Moto' className='fs-5 fw-semibold link me-3' href="#moto">
                                 Moto
                             </Link>
-                            <Link to='/Scooter' className='fs-5 fw-semibold link' href="#scooter">
+                            
+                            <Link to='/Scooter' className='fs-5 fw-semibold link me-3' href="#scooter">
                                 Scooter
                             </Link>
-                            <Dropdown className="d-inline mx-2">
-                                <Dropdown.Toggle variant='black' className='fs-5 fw-semibold'>
-                                    Abbigliamento e Accessori
-                                </Dropdown.Toggle>
-
-                                <Dropdown.Menu className='background'>
-                                    <Dropdown.Item href="#Caschi">Caschi</Dropdown.Item>
-                                    <Dropdown.Item href="#Guanti">Guanti</Dropdown.Item>
-                                    <Dropdown.Item href="#Tute da moto">Tute da moto</Dropdown.Item>
-                                    <Dropdown.Item href="#Stivali">Stivali</Dropdown.Item>
-                                </Dropdown.Menu>
-                            </Dropdown>
+                            
+                            <Link to='/Caschi' className='fs-5 fw-semibold link' href="#caschi">
+                                Caschi
+                            </Link>
+        
                         </Nav>
                         <Nav className='ms-5'>
-                        <Link to='/Profile' className='link'>
+                        <Link to='/Profile' className='link me-3'>
                         <Nav.Link className='fs-5 d-flex align-items-center fw-semibold' href="#Carrello"><MdSportsMotorsports className='me-2 fs-4'></MdSportsMotorsports> Profilo </Nav.Link>
                         </Link>
                             <Nav.Link className='fs-5 d-flex align-items-center fw-semibold' href="#Carrello"><FaShoppingCart className='me-2'></FaShoppingCart> Carrello </Nav.Link>
