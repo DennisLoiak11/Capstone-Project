@@ -72,4 +72,68 @@ body {
   color: black;
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1.400&display=swap");
+
+:root{
+    --bg: white;
+    --txt: black;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+.center{
+    display: grid;
+    place-items: center;
+    margin-bottom: 30px;
+}
+
+.head-style{
+    display: grid;
+    place-items: center;
+}
+
+.logo{
+    width: 200px;
+    height: 85px;
+}
+
+.center .cont{
+    font-weight: bold;
+}
+
+.input-grid{
+    display: grid;
+}
+
+.form-label{
+    padding-bottom: 12px;
+}
+
+.input{
+    border-radius: 3px;
+    padding: 15px;
+    width: 400px;
+}
+
+.input:nth-child(2){
+    margin-bottom: 15px;
+}
+
+.form-down{
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.form-down button{
+    background-color: red;
+    width: 435px;
+    color: black;
+    border: none;
+    padding: 12px;
+    font-size: large;
+    border-radius: 5px;
+}
 

@@ -2,7 +2,6 @@ import Logo from '../assets/logo.png'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import Dropdown from 'react-bootstrap/Dropdown';
 import { FaShoppingCart } from "react-icons/fa";
 import { MdSportsMotorsports } from "react-icons/md";
 import { Link } from "react-router-dom";
@@ -27,8 +26,12 @@ const MyNavbar = () => {
                                 Scooter
                             </Link>
                             
-                            <Link to='/Caschi' className='fs-5 fw-semibold link' href="#caschi">
+                            <Link to='/Caschi' className='fs-5 fw-semibold link me-3' href="#caschi">
                                 Caschi
+                            </Link>
+
+                            <Link to='/LoginPage' className='fs-5 fw-semibold link' href="#caschi">
+                                Login
                             </Link>
         
                         </Nav>
