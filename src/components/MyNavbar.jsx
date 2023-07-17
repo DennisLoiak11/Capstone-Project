@@ -25,15 +25,6 @@ const MyNavbar = () => {
                             <Link to='/Scooter' className='fs-5 fw-semibold link me-3' href="#scooter">
                                 Scooter
                             </Link>
-                            
-                            <Link to='/Caschi' className='fs-5 fw-semibold link me-3' href="#caschi">
-                                Caschi
-                            </Link>
-
-                            <Link to='/LoginPage' className='fs-5 fw-semibold link' href="#caschi">
-                                Login
-                            </Link>
-        
                         </Nav>
                         <Nav className='ms-5'>
                         <Link to='/Profile' className='link me-3'>
