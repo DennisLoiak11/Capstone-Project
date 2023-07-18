@@ -7,8 +7,8 @@ import MyFooter from './components/MyFooter';
 import ProfilePage from './components/ProfilePage';
 import Moto from './components/Moto';
 import Scooter from './components/Scooter';
-// import LoginPage from './components/LoginPage';
-// import RegisterPage from './components/RegisterPage';
+import LoginPage from './components/LoginPage';
+import RegisterPage from './components/RegisterPage';
 // import FirstPage from './components/FirstPage';
 
 function App() {
@@ -21,6 +21,8 @@ function App() {
             <Route path="/Profile" element={<ProfilePage/>}/>
             <Route path="/Moto" element={<Moto/>}/>
             <Route path="/Scooter" element={<Scooter/>}/>
+            <Route path="/LoginPage" element={<LoginPage/>}/>
+            <Route path="/RegisterPage" element={<RegisterPage/>}/>
         </Routes>
     <MyFooter></MyFooter>
       </BrowserRouter>

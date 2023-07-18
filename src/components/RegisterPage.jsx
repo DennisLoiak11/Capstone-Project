@@ -12,8 +12,8 @@ const RegisterPage = () => {
                             <label htmlFor="cognome" className="form-label">Cognome</label>
                             <input type="text" className="input mb-4" id="cognome" placeholder="Cognome" required />
 
-                            <label htmlFor="email" className="form-label">Email address or Username</label>
-                            <input type="text" className="input  mb-4" id="email" placeholder="Email address or Username" required />
+                            <label htmlFor="email" className="form-label">Email</label>
+                            <input type="text" className="input  mb-4" id="email" placeholder="Email / Username" required />
 
                             <label htmlFor="pass" className="form-label">Password</label>
                             <input type="password" className="input  mb-4" id="pass" placeholder="Password" required />
