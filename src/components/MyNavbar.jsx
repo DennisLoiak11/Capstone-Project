@@ -13,24 +13,24 @@ const MyNavbar = () => {
             <Navbar sticky="top" collapseOnSelect expand="lg" className="bg-body-tertiary background">
                 <Container>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                    <Navbar.Collapse className='justify-content-evenly' id="responsive-navbar-nav">
+                    <Navbar.Collapse className='justify-content-between' id="responsive-navbar-nav">
                         <Nav className="d-flex align-items-center mx-4">
                             <Link to='/Home'>
                                 <img className='logo-img' src={Logo}></img>
                             </Link>
-                            <Link to='/Moto' className='fs-5 fw-semibold link me-3' href="#moto">
+                            <Link to='/Moto' className='fs-3 fw-semibold link me-3' href="#moto">
                                 Moto
                             </Link>
                             
-                            <Link to='/Scooter' className='fs-5 fw-semibold link me-3' href="#scooter">
+                            <Link to='/Scooter' className='fs-3 fw-semibold link me-3' href="#scooter">
                                 Scooter
                             </Link>
                         </Nav>
                         <Nav className='ms-5'>
                         <Link to='/Profile' className='link me-3'>
-                        <Nav.Link className='fs-5 d-flex align-items-center fw-semibold' href="#Carrello"><MdSportsMotorsports className='me-2 fs-4'></MdSportsMotorsports> Profilo </Nav.Link>
+                        <Nav.Link className='fs-3 d-flex align-items-center fw-semibold' href="#Carrello"><MdSportsMotorsports className='me-2 fs-4'></MdSportsMotorsports> Profilo </Nav.Link>
                         </Link>
-                            <Nav.Link className='fs-5 d-flex align-items-center fw-semibold' href="#Carrello"><FaShoppingCart className='me-2'></FaShoppingCart> Carrello </Nav.Link>
+                            <Nav.Link className='fs-3 d-flex align-items-center fw-semibold' href="#Carrello"><FaShoppingCart className='me-2'></FaShoppingCart> Carrello </Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
